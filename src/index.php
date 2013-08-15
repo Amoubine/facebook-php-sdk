@@ -1,3 +1,4 @@
+ <?php
  require_once("facebook.php");
 
   $config = array();
@@ -6,3 +7,4 @@
   $config['fileUpload'] = false; // optional
 
   $facebook = new Facebook($config);
+  ?>
